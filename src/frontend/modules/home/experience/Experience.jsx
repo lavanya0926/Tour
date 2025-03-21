@@ -15,7 +15,7 @@ const Experience = () => {
           </h2>
           <p className="text-muted fs-5">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Sit sint atque veniamylies dolorum veniam aliquid at.
+            Sit sint atque veniamylies dolorum veniam aliquid.
           </p>
 
           
