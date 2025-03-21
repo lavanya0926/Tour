@@ -20,7 +20,9 @@ const Registerform = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/register", formData);
+       const BASE_URL = "https://server-3-dul6.onrender.com"; 
+      // const res = await axios.post("http://localhost:5000/api/auth/register", formData);
+      const res = await axios.post(`${BASE_URL}/api/auth/register`, formData);
       console.log(res.data);
       setFormData({ username: "", email: "", password: "" });
     } catch (err) {
