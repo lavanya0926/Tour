@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import logo1 from "../../../assets/images/logo1.png";
+import logo3 from "../../../assets/images/logo3.png";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -15,7 +15,7 @@ const CustomNavbar = ({ user, setUser }) => {
 
   const handleLogout = () => {
     localStorage.removeItem("user");
-    setUser(null); // ✅ Ensure user state updates on logout
+    setUser(null); 
     navigate("/");
     setExpanded(false);
   };
@@ -25,7 +25,7 @@ const CustomNavbar = ({ user, setUser }) => {
       <Navbar expand="md" bg="light" className="shadow-sm fixed-top py-2" expanded={expanded}>
         <Container fluid>
           <Navbar.Brand as={Link} to="/" className="ms-3">
-            <img src={logo1} alt="logo" height="50" />
+            <img src={logo3} alt="logo3" height="50"/>
           </Navbar.Brand>
 
           <Navbar.Toggle
@@ -42,7 +42,7 @@ const CustomNavbar = ({ user, setUser }) => {
                 Tour
               </Nav.Link>
 
-              {/* ✅ Show username & logout when user is logged in */}
+             
               {user ? (
                 <>
                   <span className="mx-2 fw-bold text-dark">{user.name}</span>

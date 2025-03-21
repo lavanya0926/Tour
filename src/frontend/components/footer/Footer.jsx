@@ -3,7 +3,7 @@
 
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo1 from "../../../assets/images/logo1.png";
+import logo3 from "../../../assets/images/logo3.png";
 import { BsPersonGear } from "react-icons/bs";
 import { GrGithub } from "react-icons/gr";
 import { BiLogoLinkedin } from "react-icons/bi";
@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="row text-center text-md-start">
       
           <div className="col-md-3 mb-4 mb-md-0">
-            <img src={logo1} alt="Booking Engine Logo" className="img-fluid mb-2" style={{ width: "150px" }} />
+            <img src={logo3} alt="Booking Engine Logo" className="img-fluid mb-2" style={{ width: "150px" }} />
             <p className="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, natus!</p>
             <div className="d-flex gap-3 justify-content-center justify-content-md-start fs-5">
               <BsPersonGear />
