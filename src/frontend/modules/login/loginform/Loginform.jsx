@@ -24,7 +24,9 @@ const Loginform = ({ setUser }) => {
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/authLogin/login', formData);
+       const BASE_URL = "https://server-3-dul6.onrender.com"; 
+      // const res = await axios.post('http://localhost:5000/api/authLogin/login', formData);
+      const res = await axios.post(`${BASE_URL}/api/authLogin/login`, formData);
       console.log("Response from Backend:", res.data); 
       
       const { token, name } = res.data; 
