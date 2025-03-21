@@ -51,7 +51,7 @@ const Footer = () => {
             <h5 className="fw-bold">Contact</h5>
             <p className="text-muted mb-1"><strong>Address:</strong> Kphb, Hyderabad</p>
             <p className="text-muted mb-1 text-break"><strong>Email:</strong> <a href="mailto:ramireddylavanya2609@gmail.com" className="text-muted text-decoration-none">ramireddylavanya2609@gmail.com</a></p>
-            <p className="text-muted"><strong>Phone:</strong> +91 123456989</p>
+            <p className="text-muted"><strong>Phone:</strong> +91 8121741676</p>
           </div>
         </div>
         <div className="text-center pt-3 border-top mt-3">

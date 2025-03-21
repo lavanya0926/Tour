@@ -1,8 +1,4 @@
 
-
-
-
-
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import avatar1 from "../../../../assets/images/ava-1.jpg";
